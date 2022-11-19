@@ -7,8 +7,7 @@ interface IProps {
 }
 
 export async function getServerSideProps() {
-  const data = 'Hello World'
-  return { props: { data } }
+  return { props: { data: 'Hello World!' } }
 }
 
 export default function Home({ data } : IProps) {
@@ -17,9 +16,9 @@ export default function Home({ data } : IProps) {
       <Head>
         <title>Landing Page</title>
       </Head>
-      <body>
+      <div>
         {data}
-      </body>
+      </div>
     </>
   )
 }

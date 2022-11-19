@@ -18,7 +18,7 @@ export class Color {
       input: '#333333'
     }
     this.element = {
-      strong: '#FFFFFF',
+      strong: '#000',
       regular: '#E8EDF6',
       disable: '#475569',
       inverse: '#333333'

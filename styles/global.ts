@@ -10,7 +10,7 @@ export default createGlobalStyle`
     body {
         overflow: hidden;
         font-family: 'Poppins', sans-serif;
-        color: ${({ theme }) => theme.color.element.regular};
+        color: ${({ theme }) => theme.color.element.strong};
         // background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${'images/bg2-filter.png'});
         // background-size: cover;
         // background-position: right top;
