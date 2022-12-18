@@ -1,4 +1,4 @@
-# Porfolio - Lucas Carneiro
+# NextJs Template - Lucas Carneiro
 
 Este projeto template com uma arquitetura e algumas tecnologias que eu gosto de utilizar para iniciar meus projetos.
 
