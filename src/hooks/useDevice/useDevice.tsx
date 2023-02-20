@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { DeviceController } from 'hooks/useDevice/resize'
-import { Devices } from 'utils/breakpoints'
+import { Devices } from 'atoms/breakpoints'
 
 export const hookUseDevice = () => {
   const [device, setDevice] = useState(Devices.undefined)

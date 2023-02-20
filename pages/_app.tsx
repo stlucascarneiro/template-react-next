@@ -2,9 +2,9 @@ import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import Router from 'next/router'
 // Config
+import theme from 'theme'
 import GlobalStyle from '../styles/global'
 import { ThemeProvider } from 'styled-components'
-import theme from 'atoms/theme'
 // Components
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'

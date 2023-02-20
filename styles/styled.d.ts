@@ -1,4 +1,4 @@
-import theme from 'atoms/theme'
+import theme from 'theme/index'
 import 'styled-components'
 
 type Theme = typeof theme

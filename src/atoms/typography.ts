@@ -1,51 +1,69 @@
-import { Breakpoints } from 'utils/breakpoints'
+import { Breakpoints } from './breakpoints'
 
-export default `
+export class Typography {
+  public readonly fonts
+  public readonly fontSizes
+  public readonly fontWeights
+
+  constructor() {
+    this.fonts = {
+      body: '\'Laila\', sans-serif',
+      heading: '\'Laila\', sans-serif'
+    }
+    this.fontSizes = {
+      sm: '13px',
+      md: '14px',
+      lg: '18px',
+      xl: '22px'
+    }
+    this.fontWeights = {
+      light: '400',
+      medium: '500',
+      bold: '700'
+    }
+  }
+}
+
+export const globalTypography = `
     h1 {
-        font-size: 32px;
+        font-size: 22px;
         font-weight: 700;
-
         @media ${Breakpoints.getBelow('tablet')} {
-            font-size: 24px;
+            font-size: 22px;
         }
     }
     h2 {
-        font-size: 24px;
-        font-weight: 600;
-
+        font-size: 22px;
+        font-weight: 700;
         @media ${Breakpoints.getBelow('tablet')} {
-            font-size: 20px;
+            font-size: 22px;
         }
     }
     h3 {
-        font-size: 16px;
-        font-weight: 500;
-
+        font-size: 22px;
+        font-weight: 700;
         @media ${Breakpoints.getBelow('tablet')} {
-            font-size: 15px;
+            font-size: 22px;
         }
     }
     h4 {
-        font-size: 14px;
-        font-weight: 600;
-
+        font-size: 22px;
+        font-weight: 700;
         @media ${Breakpoints.getBelow('tablet')} {
-            font-size: 13px;
+            font-size: 22px;
         }
     }
     h5 {
-        font-size: 14px;
-        font-weight: 600;
-
+        font-size: 22px;
+        font-weight: 700;
         @media ${Breakpoints.getBelow('tablet')} {
-            font-size: 13px;
+            font-size: 22px;
         }
     }
     a, button {
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 500;
         font-family: 'Poppins', sans-serif;
-
         @media ${Breakpoints.getBelow('tablet')} {
             font-size: 13px;
         }
@@ -53,7 +71,6 @@ export default `
     label {
         font-size: 14px;
         font-weight: 400;
-
         @media ${Breakpoints.getBelow('tablet')} {
             font-size: 13px;
         }
@@ -61,7 +78,6 @@ export default `
     p, li {
         font-size: 14px;
         font-weight: 300;
-
         @media ${Breakpoints.getBelow('tablet')} {
             font-size: 13px;
         }
@@ -69,7 +85,6 @@ export default `
     small {
         font-size: 13px;
         font-weight: 300;
-
         @media ${Breakpoints.getBelow('tablet')} {
             font-size: 12px;
         }

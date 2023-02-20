@@ -6,22 +6,14 @@ export class Color {
 
   constructor() {
     this.brand = {
-      primary: '#3065B6',
-      secondary: '#B0C8EB',
-      hover: '#24539b'
+      primary: '#3065B6'
     }
     this.background = {
-      default: '#121D2E',
-      glassy: 'rgba(18, 29, 46, 0.3)',
-      inverse: '#E8EDF6',
-      inverseHover: '#fff',
-      input: '#333333'
+      default: '#121D2E'
     }
     this.element = {
       strong: '#000',
-      regular: '#E8EDF6',
-      disable: '#475569',
-      inverse: '#333333'
+      regular: '#E8EDF6'
     }
     this.feedback = {
       success: '#00AC81',

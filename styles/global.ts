@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import typography from 'atoms/typography'
+import { globalTypography } from 'atoms/typography'
 
 export default createGlobalStyle`
     * {
@@ -9,7 +9,7 @@ export default createGlobalStyle`
     }
     body {
         overflow: hidden;
-        font-family: 'Poppins', sans-serif;
+        font-family: ${({ theme }) => theme.typography.fonts.body};
         color: ${({ theme }) => theme.color.element.strong};
         // background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${'images/bg2-filter.png'});
         // background-size: cover;
@@ -22,5 +22,5 @@ export default createGlobalStyle`
         position: relative;
         overflow: hidden;
     }
-    ${typography}
+    ${globalTypography}
 `

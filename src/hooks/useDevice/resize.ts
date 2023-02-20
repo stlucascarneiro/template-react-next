@@ -1,6 +1,6 @@
 import React from 'react'
-import { Breakpoints } from '../../utils/breakpoints'
-import { Devices } from 'utils/breakpoints'
+import { Breakpoints } from '../../atoms/breakpoints'
+import { Devices } from 'atoms/breakpoints'
 
 export class DeviceController {
   public static handleViewport(deviceId: Devices): Devices {
