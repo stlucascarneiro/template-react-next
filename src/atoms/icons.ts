@@ -1,22 +1,16 @@
-import { BiChevronDown, BiChevronRight, BiUser, BiBriefcase, BiCodeAlt, BiChat, BiNavigation, BiHide, BiShow, BiMap, BiMenu, BiX, BiEnvelope, BiCog, BiFile } from 'react-icons/bi'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+// import { BiChevronDown, BiChevronRight, BiUser, BiBriefcase, BiCodeAlt, BiChat, BiNavigation, BiHide, BiShow, BiMap, BiMenu, BiX, BiEnvelope, BiCog, BiFile } from 'react-icons/bi'
+// import { FaGithub, FaLinkedin } from 'react-icons/fa'
+
+import { IconCharacter } from './icons/character'
+import { IconEncounter } from './icons/encounter'
+import { IconExit } from './icons/exit'
+import { IconNpc } from './icons/npc'
+import { IconRandom } from './icons/random'
 
 export default {
-  chevronDown: BiChevronDown,
-  chevronRight: BiChevronRight,
-  user: BiUser,
-  briefcase: BiBriefcase,
-  code: BiCodeAlt,
-  contact: BiChat,
-  navigation: BiNavigation,
-  hide: BiHide,
-  show: BiShow,
-  map: BiMap,
-  menu: BiMenu,
-  close: BiX,
-  email: BiEnvelope,
-  github: FaGithub,
-  linkedin: FaLinkedin,
-  gear: BiCog,
-  certificate: BiFile
+  npc: IconNpc,
+  random: IconRandom,
+  character: IconCharacter,
+  encounter: IconEncounter,
+  exit: IconExit
 }

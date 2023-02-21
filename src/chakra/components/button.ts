@@ -1,31 +1,28 @@
 import theme from 'theme'
-const { color } = theme
+const { color, typography } = theme
 
 export function getButton() {
   return {
     variants: {
       primary: {
-        bg: color.brand.primary,
+        bg: 'linear-gradient(104.4deg, #2E585E 26.09%, rgba(120, 242, 244, 0.46) 103.5%, rgba(120, 242, 244, 0.46) 103.5%)',
         color: 'white',
         border: 'none',
-        padding: '0 12px',
+        padding: '6px 24px',
         borderRadius: '4px',
-        fontSize: '15px',
-        fontWeight: 600,
+        fontFamily: typography.fonts.body,
         _hover: {
-          boxShadow: '0 0 8px 4px rgba(102, 78, 227, 0.5)'
+          boxShadow: '0 0 8px 4px rgba(46, 88, 94, 0.5)'
         }
       },
       secondary: {
-        bg: color.background.default,
+        bg: color.background.aplha.default,
         color: color.element.regular,
-        border: `1px solid ${color.element.regular}`,
-        padding: '0 12px',
+        padding: '6px 24px',
         borderRadius: '4px',
-        fontSize: '15px',
-        fontWeight: 600,
+        fontFamily: typography.fonts.body,
         _hover: {
-          bg: 'white'
+          bg: color.background.aplha.hover
         }
       }
     }

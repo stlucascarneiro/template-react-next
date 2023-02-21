@@ -1,4 +1,6 @@
+import { Button } from '@chakra-ui/react'
 import Head from 'next/head'
+import { Body } from '../styles/global'
 // Assets
 
 // Types
@@ -16,9 +18,9 @@ export default function Home({ data } : IProps) {
       <Head>
         <title>Landing Page</title>
       </Head>
-      <div>
-        {data}
-      </div>
+      <Body>
+        <Button variant='secondary'>B</Button>
+      </Body>
     </>
   )
 }

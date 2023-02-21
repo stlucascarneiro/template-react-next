@@ -26,67 +26,66 @@ export class Typography {
 
 export const globalTypography = `
     h1 {
-        font-size: 22px;
-        font-weight: 700;
+        font-size: 22px !important;
+        font-weight: 700 !important;
         @media ${Breakpoints.getBelow('tablet')} {
-            font-size: 22px;
+            font-size: 22px !important;
         }
     }
     h2 {
-        font-size: 22px;
-        font-weight: 700;
+        font-size: 22px !important;
+        font-weight: 700 !important;
         @media ${Breakpoints.getBelow('tablet')} {
-            font-size: 22px;
+            font-size: 22px !important;
         }
     }
     h3 {
-        font-size: 22px;
-        font-weight: 700;
+        font-size: 22px !important;
+        font-weight: 700 !important;
         @media ${Breakpoints.getBelow('tablet')} {
-            font-size: 22px;
+            font-size: 22px !important;
         }
     }
     h4 {
-        font-size: 22px;
-        font-weight: 700;
+        font-size: 22px !important;
+        font-weight: 700 !important;
         @media ${Breakpoints.getBelow('tablet')} {
-            font-size: 22px;
+            font-size: 22px !important;
         }
     }
     h5 {
-        font-size: 22px;
-        font-weight: 700;
+        font-size: 22px !important;
+        font-weight: 700 !important;
         @media ${Breakpoints.getBelow('tablet')} {
-            font-size: 22px;
+            font-size: 22px !important;
         }
     }
     a, button {
-        font-size: 14px;
-        font-weight: 500;
-        font-family: 'Poppins', sans-serif;
+        font-size: 14px !important;
+        font-weight: 500 !important;
         @media ${Breakpoints.getBelow('tablet')} {
-            font-size: 13px;
+            font-size: 13px !important;
         }
     }
     label {
-        font-size: 14px;
-        font-weight: 400;
+        font-size: 14px !important;
+        font-weight: 400 !important;
         @media ${Breakpoints.getBelow('tablet')} {
-            font-size: 13px;
+            font-size: 13px !important;
         }
     }
     p, li {
-        font-size: 14px;
-        font-weight: 300;
+        font-size: 14px !important;
+        font-weight: 300 !important;
         @media ${Breakpoints.getBelow('tablet')} {
-            font-size: 13px;
+            font-size: 13px !important;
         }
     }
     small {
-        font-size: 13px;
-        font-weight: 300;
+        font-size: 13px !important;
+        font-weight: 300 !important;
         @media ${Breakpoints.getBelow('tablet')} {
-            font-size: 12px;
+            font-size: 12px !important;
         }
     }
 `

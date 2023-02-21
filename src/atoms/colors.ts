@@ -6,14 +6,21 @@ export class Color {
 
   constructor() {
     this.brand = {
-      primary: '#3065B6'
+      primary: '#78F2F4'
     }
     this.background = {
-      default: '#121D2E'
+      default: '#0C0F14',
+      card: '#0F161E',
+      aplha: {
+        default: 'rgba(255, 255, 255, 0.10)',
+        hover: 'rgba(255, 255, 255, 0.15)'
+      }
     }
     this.element = {
-      strong: '#000',
-      regular: '#E8EDF6'
+      strong: '#FFF',
+      regular: 'rgba(255, 255, 255, 0.85)',
+      light: 'rgba(255, 255, 255, 0.5)',
+      lighter: 'rgba(255, 255, 255, 0.2)'
     }
     this.feedback = {
       success: '#00AC81',
